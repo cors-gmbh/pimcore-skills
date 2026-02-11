@@ -1,0 +1,40 @@
+{
+  "name": "pimcore-skills",
+  "owner": {
+    "name": "CORS GmbH"
+  },
+  "metadata": {
+    "description": "Claude Code skills for Pimcore platform development, Studio v2, and CoreShop eCommerce",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "pimcore",
+      "description": "Pimcore platform development skills — bundles, data objects, Studio v2 UI, and ExtJS migration",
+      "source": "./",
+      "version": "1.0.0",
+      "license": "MIT",
+      "keywords": ["pimcore", "php", "react", "studio", "data-objects", "bundles"],
+      "category": "frameworks",
+      "strict": false,
+      "skills": [
+        "./skills/pimcore",
+        "./skills/pimcore-studio",
+        "./skills/pimcore-studio-migrate"
+      ]
+    },
+    {
+      "name": "coreshop",
+      "description": "CoreShop eCommerce extension skills — custom rules, payment gateways, entity extensions, workflows, Studio v2 plugins",
+      "source": "./",
+      "version": "1.0.0",
+      "license": "MIT",
+      "keywords": ["coreshop", "pimcore", "ecommerce", "php", "react"],
+      "category": "frameworks",
+      "strict": false,
+      "skills": [
+        "./skills/coreshop"
+      ]
+    }
+  ]
+}
