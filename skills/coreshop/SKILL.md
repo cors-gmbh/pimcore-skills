@@ -1,16 +1,7 @@
 ---
 name: coreshop
 description: Extend and customize CoreShop eCommerce - custom rules, payment gateways, entity extensions, workflows, Studio v2 plugins, notifications
-user-invocable: true
-disable-model-invocation: false
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
-  - Edit
-  - Write
-  - Task
+allowed-tools: Read, Grep, Glob, Bash, Edit, Write, Task
 ---
 
 # CoreShop Extension & Customization Guide

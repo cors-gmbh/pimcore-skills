@@ -1,16 +1,7 @@
 ---
 name: pimcore-studio-migrate
 description: Migrate any Pimcore ExtJS admin UI to Studio v2 React/TypeScript - panels, grids, forms, trees, stores, plugins
-user-invocable: true
-disable-model-invocation: false
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
-  - Edit
-  - Write
-  - Task
+allowed-tools: Read, Grep, Glob, Bash, Edit, Write, Task
 ---
 
 # Migrating Pimcore ExtJS Admin to Studio v2

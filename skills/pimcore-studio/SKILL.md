@@ -1,16 +1,7 @@
 ---
 name: pimcore-studio
 description: Build Pimcore Studio v2 features - React/TypeScript, Ant Design, plugins, modules, dynamic types, DI container, widgets
-user-invocable: true
-disable-model-invocation: false
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
-  - Edit
-  - Write
-  - Task
+allowed-tools: Read, Grep, Glob, Bash, Edit, Write, Task
 ---
 
 # Pimcore Studio v2 Development

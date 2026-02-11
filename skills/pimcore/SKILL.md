@@ -1,16 +1,7 @@
 ---
 name: pimcore
 description: Pimcore platform development - bundles, data objects, class definitions, CoreExtensions, events, workflows, documents, assets
-user-invocable: true
-disable-model-invocation: false
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
-  - Edit
-  - Write
-  - Task
+allowed-tools: Read, Grep, Glob, Bash, Edit, Write, Task
 ---
 
 # Pimcore Platform Development
